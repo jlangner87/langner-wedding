@@ -1,0 +1,350 @@
+@font-face {
+  font-family: signatureUnited;
+  src: url(../assets/Signature\ United.woff);
+}
+
+@font-face {
+  font-family: rollerCoaster;
+  src: url(../assets/Roller\ Coaster.ttf);
+}
+
+@font-face {
+  font-family: nanumGothic;
+  src: url(../assets/NanumGothic-Regular.ttf);
+}
+
+* {
+  color: #F1EFE7;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('../assets/bkgimg2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #171717;
+  background-position: center;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header {
+  background-color: rgb(9, 8, 8);
+  overflow-y: hidden;
+  margin-bottom: 25vh;
+  min-height: 100vh;
+}
+
+.enter_link {
+  margin: 100px auto 100px;
+  font-family: rollerCoaster;
+  font-size: 36px;
+  letter-spacing: 2px;
+  border: 1px solid #F1EFE7;
+  padding: 20px 15px 10px 20px;
+}
+
+.scroll_link {
+width: 180px;
+margin: 40px 20px 20px 20px;
+}
+
+.line {
+  border-top: 1px solid #F1EFE7;
+  width: 50%;
+  margin: -80px auto 160px auto;
+}
+
+.hero_image {
+  width: 600px;
+  padding-top: 100px;
+  margin-bottom: -30px;
+}
+
+.name {
+  font-size: 295px;
+  font-family: signatureUnited;
+  margin: -100px auto -195px auto;
+  color: #a62b3a;
+}
+
+.job {
+  margin-left: 308px;
+  font-size: 63px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: rollerCoaster;
+  line-height: 200%;
+}
+
+.headshot {
+  width: 25%;
+  border-radius: 50%;
+  margin: 20px auto 40px auto;
+  border-bottom: 1px solid #a62b3a;
+  border-left: 3px solid #a62b3a;
+  border-top: 1px solid #a62b3a;
+}
+
+.logo {
+  width: 20%;
+}
+
+.content_block {
+  width: 99%;
+  background-color: rgb(0, 0, 0, .55);
+  margin: 0 auto 50vh auto;
+  padding: 5px 10px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.content_block_final {
+  width: 99%;
+  background-color: rgb(0, 0, 0, .55);
+  margin: 0 auto 30px auto;
+  padding: 5px 10px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.block_header {
+  margin: 20px auto 10px auto;
+  font-family: rollerCoaster;
+  font-size: 62px;
+  line-height: 200%;
+}
+
+.block_subheader {
+  width: 75%;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 20px auto 0 auto;
+  font-family: nanumGothic;
+  text-align: center;
+}
+
+.block_text {
+  width: 75%;
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 20px auto 55px auto;
+  font-family: nanumGothic;
+  text-align: left;
+}
+
+.block_subtext {
+  width: 100%;
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 15px auto 15px ;
+  font-family: nanumGothic;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto 50px auto;
+  justify-content: center;
+  border-bottom: 1px solid #F1EFE7;
+}
+
+.slider {
+  margin: 15px auto;
+  width: 85%;
+}
+
+.each-slide-effect > img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 33%;
+  margin: 30px auto;
+}
+
+.each-slide-effect > img:hover{
+  filter: brightness(120%)
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  filter: brightness(180%);
+}
+
+.nav_butt {
+  width: 200px;
+}
+
+.indicator {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px #171717;
+  margin: 0;
+  font-family: mamumGothic;
+  font-size: 18px;
+}
+
+.indicator.active {
+  color: #171717;
+  background: #F1EFE7;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto 50px auto;
+  justify-content: center;
+  border-bottom: 1px solid #F1EFE7;
+}
+
+.social_link {
+  width: 70px;
+  margin: 30px 20px;
+}
+
+.lucky_link {
+  width: 260px;
+  margin: 15px 30px 15px 0;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  font-size: 14px;
+  position: relative;
+}
+
+@media only screen and (max-width: 580px){
+
+body {
+  background-image: url('../assets/mobilebkg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #171717;
+  background-size: contain;
+}
+
+.enter_link {
+  margin: 50px auto 50px;
+  font-size:28px;
+}
+
+.scroll_link {
+width: 100px;
+margin: 20px 10px 10px 10px;
+}
+
+.Header {
+  width: 100%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.hero_image {
+  width: 95%;
+}
+
+.name {
+  font-size: 110px;
+  margin: -20px auto -68px auto;
+}
+
+.job {
+  margin-left: 112px;
+  font-size: 20px;
+}
+
+.line {
+  border-top: 1px solid #F1EFE7;
+  width: 70%;
+  margin: -23px auto 0 auto;
+  padding-bottom: 200px;
+}
+
+.headshot {
+  width: 80%;
+}
+
+.content_block {
+  width: 100vw;
+  margin: 0 auto 25vh auto;
+  padding: 0px 0px;
+}
+
+.content_block_final {
+  width: 100vw;
+  margin: 0 auto 15px auto;
+  padding: 0px 0px;
+}
+
+.block_header {
+  margin: 10px auto 10px auto;
+  font-size: 48px;
+}
+
+.block_text {
+  font-size: 16px;
+  margin: 0px auto 32px auto;
+}
+
+.block_subtext {
+  font-size: 16px ;
+}
+
+.block_subheader {
+  font-size: 24px;
+}
+
+.socials {
+  width: 100%;
+  margin: 0 auto 25px auto;
+}
+
+.contact {
+  width: 100%;
+  margin: 0 auto 25px auto;
+}
+
+.social_link {
+  width: 70px;
+  margin: 20px 20px;
+}
+
+.lucky_link {
+  width: 80%;
+  margin: 15px auto 15px auto;
+}
+
+.slider {
+  margin: 8px auto;
+  width: 100%;
+  height: 75vh;
+}
+
+.each-slide-effect > img{
+  width: 75%;
+  margin: 15px auto;
+}
+
+.nav_butt {
+  width: 80px;
+}
+
+.indicator {
+  display: none;
+}
+}
