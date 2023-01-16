@@ -1,0 +1,59 @@
+@media only screen and (max-width: 580px){  
+  body {
+    background-image: url('../assets/backsplash.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #043044;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .underline {
+    width: 60vw;
+    margin-top: -20px;
+    margin-bottom: 15vh;
+  }
+  
+  .overline {
+    width: 60vw;
+    margin: 33vh auto -20px auto;
+  }
+  
+  .flourish {
+    width: 60vw;
+  }
+  
+  #last {
+    margin-bottom: 10vh;
+  }
+  
+  .Header {
+    margin-bottom: 75vh;
+  }
+  
+  .Header h1 {
+    font-size: 40px;
+    margin-bottom: -5px;
+  }
+  
+  .Header h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  
+  .Content {
+    margin-bottom: 50vh;
+    min-height: 100vh;
+  }
+  
+  .Content h1 {
+    width: 75%;
+    font-size: 42px;
+    margin-top: 40px;
+  }
+  
+  .content_text {
+    width: 85%;
+    font-size: 16px;
+  }  
+}

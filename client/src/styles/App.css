@@ -95,7 +95,7 @@ body {
 .Content {
   background-color: rgb(4, 48, 68, .8);
   margin-bottom: 50vh;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Content h1 {

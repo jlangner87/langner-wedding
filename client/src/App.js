@@ -1,4 +1,5 @@
 import './styles/App.css'
+import './styles/Mobile.css'
 import Home from './pages/home'
 
 function App() {
