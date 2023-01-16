@@ -1,14 +1,23 @@
-import About from "./about"
-import Contact from "./contact"
-import Gallery from "./gallery"
-import { HashLink } from "react-router-hash-link"
+import Header from "../components/header"
+import Welcome from "./welcome"
+import WeddingParty from "./weddingParty"
+import Venue from "./venue"
+import Lodging from "./travelLodging"
+import Registry from "./giftRegistry"
+import RSVP from "./rsvp"
+import ContactUs from "./contactUs"
 
 function Home() {
   return (
-    <div className="page">
-      <About/>
-      <Gallery/>
-      <Contact/>
+    <div className="Home">
+      <Header/>
+      <Welcome/>
+      <WeddingParty/>
+      <Venue/>
+      <Lodging/>
+      <Registry/>
+      <RSVP/>
+      <ContactUs/>
     </div>
   )
 }
