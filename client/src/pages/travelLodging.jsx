@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import Footer from '../components/footer'
 import flourish from '../assets/flourish.png'
 import Minneapolis from '../assets/Minneapolis.png'
 import Omaha from '../assets/Omaha.png'
@@ -14,7 +15,7 @@ function Lodging() {
       <img src={flourish} className='flourish'/>
       <div className='travel'>
         <h3 className='venue'>Lodging</h3>
-        <p className='lodging_text'>For those of you who plan on traveling, thank you for making the trip to join us. We have a block of pet friendly rooms reserved at the Holiday Inn Express in Spencer, Iowa. You can access the hotel information at the link below.</p>
+        <p className='lodging_text'>We are so thrilled that you have chosen to join us for our wedding! If your travels bring you from afar, we've arranged a nice block of pet-friendly rooms at the Holiday Inn Express in Spencer, Iowa. Get all the deetails on this option by clicking below.</p>
         <a href='https://www.ihg.com/holidayinnexpress/hotels/us/en/spencer/spwes/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-SPWES' target="_blank" rel="noopener noreferrer">
           <img src={lodging} alt='hotel block link' className='flights_icon'/>
           <p className='address'>916 13th St SW</p>
@@ -33,7 +34,7 @@ function Lodging() {
       </div>
       <div className='travel'>
         <h3 className='venue'>Flights</h3>
-        <p className='lodging_text'>If you are flying in, the closest airports are Minneapolis, Omaha, and DesMoines. Flights to these airports can be found by clicking the links below.</p>
+        <p className='lodging_text'>Flying in for the wedding? Check out convenient flight options to either Minneapolis, Omaha or DesMoines airports by clicking on the provided links. Happy travels!</p>
         <div className='flights_container'>
           <a href='https://www.expedia.com/Cheap-Flights-To-Omaha.d2670.Travel-Guide-Flights' target="_blank" rel="noopener noreferrer">
             <img src={Omaha} alt='flights to Omaha link' className='flights_icon'/>
@@ -50,7 +51,7 @@ function Lodging() {
         <HashLink to={'/#venue'} className='enter'>Back</HashLink>
         <HashLink to={'/#wedding-registry'} className='enter'>Next</HashLink>   
       </div>
-    
+      <Footer/>
     </div>
   )
 }

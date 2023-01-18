@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import Footer from '../components/footer'
 import flourish from '../assets/flourish.png'
 
 function Registry() {
@@ -12,7 +13,8 @@ function Registry() {
       <div className='nav_container'>
         <HashLink to={'/#travel-and-lodging'} className='enter'>Back</HashLink>
         <HashLink to={'/#rsvp'} className='enter'>Next</HashLink>   
-      </div>  
+      </div>
+      <Footer/>
     </div>
   )
 }

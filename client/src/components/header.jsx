@@ -5,8 +5,8 @@ import underline from '../assets/underline.png'
 function Header() {
   return <div className="Header" id="top">
     <img src={underline} alt="" className='overline'/>
-    <h1>Jeremiah & Savannah</h1>
-    <h2>⸺ May 43, 2024 ⸺</h2>
+    <h1>Savannah & Jeremiah</h1>
+    <h2>⸺ May 23, 2024 ⸺</h2>
     <img src={underline} alt="" className='underline'/><br/>
     <HashLink to={'/#welcome'} className='enter'>Enter</HashLink>
 

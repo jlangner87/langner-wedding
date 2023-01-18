@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import Footer from '../components/footer'
 import flourish from '../assets/flourish.png'
 import maidOfHonor from '../assets/allison.png'
 import bridesmaid1 from '../assets/bethany.png'
@@ -66,6 +67,7 @@ function WeddingParty() {
         <HashLink to={'/#welcome'} className='enter'>Back</HashLink>
         <HashLink to={'/#venue'} className='enter'>Next</HashLink>   
       </div>
+      <Footer/>
     </div>
   )
 }

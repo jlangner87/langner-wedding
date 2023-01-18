@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import Footer from '../components/footer'
 import flourish from '../assets/flourish.png'
 import venuemap from '../assets/venuemap.png'
 
@@ -24,7 +25,7 @@ function Venue() {
         <HashLink to={'/#wedding-party'} className='enter'>Back</HashLink>
         <HashLink to={'/#travel-and-lodging'} className='enter'>Next</HashLink>   
       </div>
- 
+      <Footer/>
     </div>
   )
 }

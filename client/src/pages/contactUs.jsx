@@ -1,4 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
+import Footer from '../components/footer'
 import flourish from '../assets/flourish.png'
 
 function ContactUs() {
@@ -13,6 +14,7 @@ function ContactUs() {
         <HashLink to={'/#rsvp'} className='enter'>Back</HashLink>
         <HashLink to={'/#top'} className='enter'>To Top</HashLink>   
       </div>
+      <Footer/>
     </div>
   )
 }
