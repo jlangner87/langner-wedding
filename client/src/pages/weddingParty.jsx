@@ -62,7 +62,10 @@ function WeddingParty() {
         <p className="person">David Jones <br/><span className="italic">Cousin of the Groom</span></p>
       </div>
       </div>
-      <div className='nav_container'><HashLink to={'/#venue'} className='enter'>Enter</HashLink> </div>
+      <div className='nav_container'>
+        <HashLink to={'/#welcome'} className='enter'>Back</HashLink>
+        <HashLink to={'/#venue'} className='enter'>Next</HashLink>   
+      </div>
     </div>
   )
 }

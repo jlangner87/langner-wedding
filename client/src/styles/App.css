@@ -58,7 +58,10 @@ body {
 }
 
 .nav_container {
-  margin: 20px;
+  width: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto 20px auto;
   padding: 20px;
 }
 
@@ -145,7 +148,7 @@ body {
 }
 
 .person {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .party_photo {
@@ -156,7 +159,7 @@ body {
 
 .italic {
   font-style: italic;
-  font-size: 28px;
+  font-size: 18px;
   padding-bottom: 20px;
 }
 

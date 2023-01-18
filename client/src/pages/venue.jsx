@@ -19,9 +19,11 @@ function Venue() {
         <p className='address'>Spencer, IA 51301</p>
         <a href='https://goo.gl/maps/AX86oDHtyqmxcWWq5' target="_blank" rel="noopener noreferrer"><img src={venuemap} alt="map to wedding venue" className='map'/></a>
         <p className='notation'>Click the map to open GPS</p>
-        <HashLink to={'/#travel-and-lodging'} className='enter'>Next</HashLink>  
       </div>
-
+      <div className='nav_container'>
+        <HashLink to={'/#wedding-party'} className='enter'>Back</HashLink>
+        <HashLink to={'/#travel-and-lodging'} className='enter'>Next</HashLink>   
+      </div>
  
     </div>
   )

@@ -44,8 +44,11 @@ function Lodging() {
           <a href='https://www.expedia.com/Cheap-Flights-To-Minneapolis.d2426.Travel-Guide-Flights' target="_blank" rel="noopener noreferrer">
             <img src={Minneapolis} alt='flights to Minneapolis link' className='flights_icon'/>
           </a>
-        </div>
-        <br/><HashLink to={'/#wedding-registry'} className='enter'>Next</HashLink>  
+        </div> 
+      </div>
+      <div className='nav_container'>
+        <HashLink to={'/#venue'} className='enter'>Back</HashLink>
+        <HashLink to={'/#wedding-registry'} className='enter'>Next</HashLink>   
       </div>
     
     </div>
